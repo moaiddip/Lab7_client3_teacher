@@ -39,10 +39,10 @@
             this.numberOfQuizesTextBox = new System.Windows.Forms.TextBox();
             this.TeacherTab = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.createMultibleQuizesButtons = new System.Windows.Forms.Button();
+            this.createMultipleQuizesButtons = new System.Windows.Forms.Button();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.createSingleQuizButton = new System.Windows.Forms.Button();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.txtboxQword = new System.Windows.Forms.TextBox();
             this.enterWordInNativeLanguageTextBox = new System.Windows.Forms.Label();
             this.operationViewerLabel = new System.Windows.Forms.Label();
             this.TeacherTab.SuspendLayout();
@@ -144,7 +144,7 @@
             // 
             // tabPage1
             // 
-            this.tabPage1.Controls.Add(this.createMultibleQuizesButtons);
+            this.tabPage1.Controls.Add(this.createMultipleQuizesButtons);
             this.tabPage1.Controls.Add(this.label5);
             this.tabPage1.Controls.Add(this.numberOfQuizesTextBox);
             this.tabPage1.Location = new System.Drawing.Point(4, 23);
@@ -155,20 +155,20 @@
             this.tabPage1.Text = "Select Multiple Random Quizes";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
-            // createMultibleQuizesButtons
+            // createMultipleQuizesButtons
             // 
-            this.createMultibleQuizesButtons.Location = new System.Drawing.Point(290, 15);
-            this.createMultibleQuizesButtons.Name = "createMultibleQuizesButtons";
-            this.createMultibleQuizesButtons.Size = new System.Drawing.Size(271, 23);
-            this.createMultibleQuizesButtons.TabIndex = 9;
-            this.createMultibleQuizesButtons.Text = "Create Multiple Quizes";
-            this.createMultibleQuizesButtons.UseVisualStyleBackColor = true;
-            this.createMultibleQuizesButtons.Click += new System.EventHandler(this.createMultibleQuizesButtons_Click);
+            this.createMultipleQuizesButtons.Location = new System.Drawing.Point(290, 15);
+            this.createMultipleQuizesButtons.Name = "createMultipleQuizesButtons";
+            this.createMultipleQuizesButtons.Size = new System.Drawing.Size(271, 23);
+            this.createMultipleQuizesButtons.TabIndex = 9;
+            this.createMultipleQuizesButtons.Text = "Create Multiple Quizes";
+            this.createMultipleQuizesButtons.UseVisualStyleBackColor = true;
+            this.createMultipleQuizesButtons.Click += new System.EventHandler(this.createMultipleQuizesButtons_Click);
             // 
             // tabPage2
             // 
             this.tabPage2.Controls.Add(this.createSingleQuizButton);
-            this.tabPage2.Controls.Add(this.textBox4);
+            this.tabPage2.Controls.Add(this.txtboxQword);
             this.tabPage2.Controls.Add(this.enterWordInNativeLanguageTextBox);
             this.tabPage2.Location = new System.Drawing.Point(4, 23);
             this.tabPage2.Name = "tabPage2";
@@ -188,12 +188,12 @@
             this.createSingleQuizButton.UseVisualStyleBackColor = true;
             this.createSingleQuizButton.Click += new System.EventHandler(this.createSingleQuizButton_Click);
             // 
-            // textBox4
+            // txtboxQword
             // 
-            this.textBox4.Location = new System.Drawing.Point(187, 17);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(162, 22);
-            this.textBox4.TabIndex = 1;
+            this.txtboxQword.Location = new System.Drawing.Point(187, 17);
+            this.txtboxQword.Name = "txtboxQword";
+            this.txtboxQword.Size = new System.Drawing.Size(162, 22);
+            this.txtboxQword.TabIndex = 1;
             // 
             // enterWordInNativeLanguageTextBox
             // 
@@ -255,11 +255,11 @@
         private System.Windows.Forms.TabControl TeacherTab;
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.TabPage tabPage2;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox txtboxQword;
         private System.Windows.Forms.Label enterWordInNativeLanguageTextBox;
         private System.Windows.Forms.Button createSingleQuizButton;
         private System.Windows.Forms.Label operationViewerLabel;
-        private System.Windows.Forms.Button createMultibleQuizesButtons;
+        private System.Windows.Forms.Button createMultipleQuizesButtons;
     }
 }
 
