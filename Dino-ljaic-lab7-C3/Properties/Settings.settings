@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Dino_ljaic_lab7_C3.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Dino_ljaic_lab7_C3_net_azurewebsites_lab7dms_WebServicesMultiplatform" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://lab7dms.azurewebsites.net/WebServicesMultiplatform.asmx</Value>
+    </Setting>
+    <Setting Name="Dino_ljaic_lab7_C3_net_azurewebsites_lab7mds_WebServicesMultiplatform" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://lab7mds.azurewebsites.net/WebServicesMultiplatform.asmx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
