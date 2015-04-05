@@ -60,6 +60,7 @@ namespace Dino_ljaic_lab7_C3
             {
                 String test = webs.debugTest();
                 students = new ArrayList(webs.GetAllUsers());
+                students.Sort();
                 studentListComboBox.DataSource = students;
                 studentListComboBox.SelectedItem = null;
                 setOperationSuccessViewerLabel(test);
@@ -126,6 +127,7 @@ namespace Dino_ljaic_lab7_C3
 
         private void createMultipleQuizesButtons_Click(object sender, EventArgs e)
         {
+            setOperationSuccessViewerLabel("Create Multiple Quizes Button Has Been Pressed");
             int nbr = 0;
             if (stringValueIsNumeric(numberOfQuizesTextBox.Text) == true)
             {
@@ -135,7 +137,7 @@ namespace Dino_ljaic_lab7_C3
                     try
                     {
                         webs.createMultipleRandomQuizes(nbr, natLang, student);
-                        setOperationSuccessViewerLabel("Create Multiple Quizes Button Has Been Pressed");
+                        setOperationSuccessViewerLabel(nbr+" quiz(es) has been created");
                     }
                     catch (Exception ex)
                     {
